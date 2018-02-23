@@ -2,7 +2,6 @@ CREATE DATABASE bamazon;
 
 USE bamazon;
 
-DROP TABLE products;
 
 CREATE TABLE products (
 	item_id INT NOT NULL AUTO_INCREMENT,
@@ -25,8 +24,6 @@ VALUES ("Weller Bourbon","Food and Beverage", 20, 10),
 ("Tiny Home", "Household", 20000, 5),
 ("Cajun Shrimp OPI Nail Polish", "Beauty", 60, 8),
 ("Blender", "Household", 100, 50);
-
-USE bamazon;
 
 CREATE TABLE departments (
 	department_id INT NOT NULL AUTO_INCREMENT,
